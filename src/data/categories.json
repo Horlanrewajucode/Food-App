@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Jollof Delights",
+    "image": "/jollof-delight.svg"
+  },
+  {
+    "id": 2,
+    "title": "Swallow & Soups",
+    "image": "/swallow-soup.svg"
+  },
+  {
+    "id": 3,
+    "title": "Grills & BBQ",
+    "image": "/grills-bbq.svg"
+  },
+  {
+    "id": 4,
+    "title": "Sweet Treats",
+    "image": "/sweet-treats.svg"
+  },
+  {
+    "id": 5,
+    "title": "Swallow & Soups",
+    "image": "/swallow-soup2.svg"
+  },
+  {
+    "id": 6,
+    "title": "Grills & BBQ",
+    "image": "/grills-bbq2.svg"
+  }
+]
