@@ -2,7 +2,7 @@ import chefsSpecial from "../data/chefsSpecial.json";
 
 function ChefsSpecial() {
   return (
-    <section className="bg-[rgba(243,244,246,1)] flex items-center flex-col justify-center ">
+    <section className="bg-[rgba(243,244,246,1)] flex items-center flex-col justify-center md:pb-40 ">
       <div className="gap-10 flex flex-col items-center mt-40 ">
         <h2 className="font-bold text-3xl">Chef's Special</h2>
         <div className="md:grid md:grid-cols-3 md:gap-20 md:mt-6 flex flex-col gap-12">
@@ -26,7 +26,7 @@ function ChefsSpecial() {
               </div>
             </div>
           ))}
-          <button className="md:hidden text-[rgba(30,136,229,1)] -mt-7.5 text-2xl">
+          <button className="md:hidden text-[rgba(30,136,229,1)] -mt-7.5 text-2xl pb-30">
             View All Categories
           </button>
         </div>
