@@ -1,6 +1,5 @@
+import Cart from "../components/orderDetail";
 
 export default function Orders() {
-  return (
-    <h1>Orders</h1>
-  )
+  return <Cart />;
 }
