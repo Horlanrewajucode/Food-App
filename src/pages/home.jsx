@@ -6,13 +6,13 @@ import SearchBox from "../components/searchBox";
 
 function Home() {
   return (
-    <div>
+    <>
       <HomeScreen />
       <SearchBox />
       <PopularCategories />
       <ChefsSpecial />
       <NewAddition />
-    </div>
+    </>
   );
 }
 

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Jollof Rice & Smoked Fish",
+    "description": "Flavorful jollof rice served with perfectly smoked fish.",
+    "price": "#3500",
+    "image": "/explore-jollof-fish.svg"
+  },
+  {
+    "id": 2,
+    "name": "Party Jollof Rice (Veg)",
+    "description": "Vegetarian party jollof, full of rich flavors.",
+    "price": "#2800",
+    "image": "/explore-jollof-veg.svg"
+  },
+  {
+    "id": 3,
+    "name": "Party Jollof Rice (Veg)",
+    "description": "Vegetarian party jollof, full of rich flavors.",
+    "price": "#3500",
+    "image": "/explore-jollof-veg.svg"
+  }
+]

@@ -8,11 +8,11 @@ function ChefsSpecial() {
         <div className="md:grid md:grid-cols-3 md:gap-20 md:mt-6 flex flex-col gap-12">
           {chefsSpecial.map((special, index) => (
             <div
-              className={`w-100 flex flex-col bg-white md:pb-10 pb-12 gap-3 md:gap-5 font-serif ${index >= 3 ? "hidden md:flex" : ""}`}
+              className={`bg-white md:w-100 w-95 flex flex-col md:pb-10 pb-5 gap-3 font-serif ${index >= 3 ? "hidden md:flex" : ""}`}
               key={special.id}
             >
               <img src={special.image} alt={special.title} />
-              <div className="px-4 flex flex-col gap-12">
+              <div className=" px-4 py-2 flex flex-col">
                 <div className="flex flex-col gap-2">
                   <p className="text-[22px] font-semibold">{special.title}</p>
                   <p className="text-[16px] w-[90%]">{special.description}</p>

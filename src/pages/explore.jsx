@@ -1,6 +1,17 @@
+import ExploreHero from "../components/exploreHero";
+import ExploreJollof from "../components/exploreJollof";
+import ExplorePopular from "../components/explorePopular";
+import MenuCategories from "../components/menuCategories";
+import SoupsSwallow from "../components/soupsSwallow";
 
 export default function Explore() {
   return (
-   <h1>Explore</h1>
-  )
+    <>
+      <ExploreHero />
+      <MenuCategories />
+      <ExplorePopular />
+      <ExploreJollof />
+      <SoupsSwallow />
+    </>
+  );
 }

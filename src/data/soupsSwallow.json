@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Amala with Gbegiri & Ewedu",
+    "description": "Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.",
+    "price": "#3100",
+    "image": "/amala-gbegiri.svg"
+  },
+  {
+    "id": 2,
+    "name": "Fufu & Okra Soup (Fish)",
+    "description": "Light Fufu served with fresh okra soup and tilapia fish.",
+    "price": "#3300",
+    "image": "/fufu-okra.svg"
+  },
+  {
+    "id": 3,
+    "name": "Fufu & Okra Soup (Fish)",
+    "description": "Light Fufu served with fresh okra soup and tilapia fish.",
+    "price": "#3500",
+    "image": "/fufu-okra.svg"
+  }
+]

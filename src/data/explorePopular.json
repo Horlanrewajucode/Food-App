@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Jollof Rice & Fried Chicken",
+      "description": "Our signature Jollof rice, served with crispy fried chicken and plantain.",
+      "price": "#3500",
+      "image": "/explore-rice-chicken.svg"
+    },
+    {
+      "id": 2,
+      "name": "Eba & Egusi Soup (Goat Meat)",
+      "description": "Hearty Egusi soup with tender goat meat, served with soft Eba.",
+      "price": "#3500",
+      "image": "/explore-eba-egusi.svg"
+    },
+    {
+      "id": 3,
+      "name": "Pounded Yam & Edikaikong",
+      "description": "Traditional pounded yam with rich, leafy Edikaikong soup.",
+      "price": "#3800",
+      "image": "/explore-pounded-yam.svg"
+    },
+    {
+      "id": 4,
+      "name": "Peppered Snail",
+      "description": "Spicy and savory peppered snail, perfect as a starter.",
+      "price": "#2500",
+      "image": "/explore-peppered-snail.svg"
+    },
+    {
+      "id": 5,
+      "name": "Grilled Tilapia Fish",
+      "description": "Whole grilled tilapia seasoned with our special spices.",
+      "price": "#4500",
+      "image": "/explore-grilled-fish.svg"
+    },
+    {
+      "id": 6,
+      "name": "Jollof Rice & Fried Chicken",
+      "description": "Our signature Jollof rice, served with crispy fried chicken and plantain.",
+      "price": "#3500",
+      "image": "/explore-rice-chicken2.svg"
+    }
+]
