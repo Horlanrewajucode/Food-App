@@ -1,23 +1,23 @@
 import { Link } from "react-router-dom";
 import Logo from "./logo";
 
-function LoginScreen() {
+function SignUpScreen() {
   return (
     <section className="flex flex-col items-center justify-center gap-8">
       <div className="flex flex-col items-center justify-center">
         {/* <span className="hidden md:block">
           <Logo />
         </span> */}
-        <h3 className="md:text-3xl text-2xl font-mono">Login Your Account</h3>
+        <h3 className="md:text-3xl text-2xl font-mono">Create Your Account</h3>
       </div>
       <div className="flex flex-col gap-4">
         <div>
           <div className="flex flex-col gap-1">
             <label
               htmlFor="email"
-              className="text-[18px]  text-[rgba(59,71,88,1)]"
+              className="text-[18px] text-[rgba(59,71,88,1)]"
             >
-              Email or phone number
+              Email
             </label>
             <div className="flex items-center justify-center relative">
               <img
@@ -30,6 +30,28 @@ function LoginScreen() {
                 name="email"
                 id="email"
                 placeholder="name@gmail.com"
+                className="border border-stone-400 rounded-md h-12 px-10 w-full placeholder:font-semibold placeholder:text-[17px] outline-stone-400"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col gap-1">
+            <label
+              htmlFor="email"
+              className="text-[18px]  text-[rgba(59,71,88,1)]"
+            >
+              Phone number
+            </label>
+            <div className="flex items-center justify-center relative">
+              <img
+                src="phone-number.png"
+                alt="phone-number"
+                className="absolute left-2 px-1"
+              />
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="09011838106"
                 className="border border-stone-400 rounded-md h-12 px-10 w-full placeholder:font-semibold placeholder:text-[17px] outline-stone-400"
               />
             </div>
@@ -51,7 +73,7 @@ function LoginScreen() {
                 type="password"
                 name="password"
                 id="password"
-                placeholder="******"
+                placeholder="QWE123#"
                 className="border border-stone-400 rounded-md h-12 px-9 w-full placeholder:font-semibold placeholder:text-[17px] outline-stone-400"
               />
               <button className="flex items-center cursor-pointer">
@@ -63,9 +85,46 @@ function LoginScreen() {
               </button>
             </div>
           </div>
-          <p className="text-[rgba(30,136,229,1)] text-[12px] text-right mt-1">
-            <a href="">Forgot Password?</a>
-          </p>
+          <div className="flex flex-col gap-1">
+            <label
+              htmlFor="password"
+              className="text-[18px]  text-[rgba(59,71,88,1)]"
+            >
+              Confirm Password
+            </label>
+            <div className="flex items-center justify-center relative">
+              <img
+                src="/lock.png"
+                alt="lock-icon"
+                className="absolute left-2 px-1"
+              />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="QWE123#"
+                className="border border-stone-400 rounded-md h-12 px-9 w-full placeholder:font-semibold placeholder:text-[17px] outline-stone-400"
+              />
+              <button className="flex items-center cursor-pointer">
+                <img
+                  src="/visibility.png"
+                  alt="visiblity-icon"
+                  className="absolute right-2"
+                />
+              </button>
+            </div>
+          </div>
+          <div className="flex gap-1">
+            <input type="checkbox" className="cursor-pointer" />
+            <label className="font-mono text-[12px]">
+              I agree to the{" "}
+              <span className="text-[rgba(30,136,229,1)]">
+                Terms & Condition
+              </span>{" "}
+              and{" "}
+              <span className="text-[rgba(30,136,229,1)]">Privacy Policy</span>
+            </label>
+          </div>
         </div>
         <div className="flex flex-col items-center justify-center gap-3">
           <button className="bg-[rgba(255,122,24,1)] w-full rounded-md text-white py-3 cursor-pointer text-[18px] font-semibold font-serif">
@@ -83,9 +142,9 @@ function LoginScreen() {
           </button>
         </div>
         <p className="text-[12px] text-center">
-          Don't have an account?{" "}
-          <Link to="/account" className="text-[rgba(30,136,229,1)]">
-            Create an account
+          Already have an account?{" "}
+          <Link to="/login" className="text-[rgba(30,136,229,1)]">
+            Login
           </Link>{" "}
         </p>
       </div>
@@ -93,4 +152,4 @@ function LoginScreen() {
   );
 }
 
-export default LoginScreen;
+export default SignUpScreen;

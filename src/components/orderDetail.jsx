@@ -17,7 +17,9 @@ function Cart() {
                 <h2 className="md:text-3xl font-medium  font-serif">
                   {order.name}
                 </h2>
-                <p className="md:text-[16px] text-[13px] font-mono">{order.description}</p>
+                <p className="md:text-[16px] text-[13px] font-mono">
+                  {order.description}
+                </p>
               </div>
               <div className="flex md:gap-60 md:flex-row flex-col gap-5 py-2 px-3">
                 <div className="flex items-center justify-between md:justify-center md:gap-15 ">
@@ -30,14 +32,21 @@ function Cart() {
                   </button>
                 </div>
                 <div className="flex md:gap-15 md:px-10 items-center gap-45">
-                  <p className="text-[rgba(255,122,24,1)] md:text-2xl md:font-bold">{order.price}</p>
-                  <button className="md:bg-[rgba(255,122,24,1)] bg-black text-white md:font-bold px-1.5 rounded-md cursor-pointer">X</button>
+                  <p className="text-[rgba(255,122,24,1)] md:text-2xl md:font-bold">
+                    {order.price}
+                  </p>
+                  <button className="md:bg-[rgba(255,122,24,1)] bg-black text-white md:font-bold px-1.5 rounded-md cursor-pointer">
+                    X
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         ))}
-              <p>+ Add more items from Chuks Kitchen</p>
+        <a href="" className="text-[rgba(30,136,229,1)]">
+          {" "}
+          + Add more items from Chuks Kitchen
+        </a>
       </div>
     </main>
   );
