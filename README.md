@@ -38,8 +38,6 @@ The application follows this user journey:
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
 ```
 FOOD-ORDERING-APP
 │
