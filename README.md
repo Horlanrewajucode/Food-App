@@ -1,3 +1,4 @@
+[Live Demo](https://food-app-intern.vercel.app/)
 # 🍽️ Chuks Kitchen – React Food Ordering Web App
 
 ## Chuks Kitchen is a modern React-based food ordering web application that allows users to browse delicious Nigerian meals, add items to cart, and complete checkout with order confirmation.
