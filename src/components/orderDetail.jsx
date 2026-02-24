@@ -14,7 +14,7 @@ function Cart() {
             />
             <div className="flex flex-col md:flex-row items-center md:gap-40">
               <div className="flex flex-col md:gap-2">
-                <h2 className="md:text-3xl font-medium  font-serif">
+                <h2 className="md:text-[25px] font-medium  font-serif">
                   {order.name}
                 </h2>
                 <p className="md:text-[16px] text-[13px] font-mono">
